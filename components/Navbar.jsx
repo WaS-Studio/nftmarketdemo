@@ -120,7 +120,7 @@ const Navbar = () => {
               objectFit="contain"
               width={20}
               height={20}
-              alt="cllose"
+              alt="close"
               onClick={() => setIsOpen(false)}
               className={theme === 'light' && 'filter invert'}
             />
