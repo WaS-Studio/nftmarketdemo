@@ -78,7 +78,7 @@ const Navbar = () => {
               width={32}
               height={32}
               alt="logo"
-            /> <p className="dark:text-white text-nft-black-1 font-semibold text-lg ml-1">Scuffed Beeple</p>
+            /> <p className="dark:text-white text-nft-black-1 font-semibold text-lg ml-1">ScuffedBeeple</p>
           </div>
         </Link>
         <Link href="/">
