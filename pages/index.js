@@ -12,6 +12,13 @@ const Home = () => (
         parentStyles="justify-start mb-6 h-72 sm:h-60 p-12 xs:p-4 xs:h-44 rounded-3xl"
       />
     </div>
+
+    <div>
+      <h1 className="font-poppins dark:text-white test-nft-black-1 text-2xl minlg:text-4xl font-semibold ml-4 xs:ml-0"> Best Creators
+
+      </h1>
+    </div>
+
     <div className="minmd:4/5 flex ml-20 p-1 justify-evenly bg-nft-red-violet ">
       <Image
         src={images.snailMan}
