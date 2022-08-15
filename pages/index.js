@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { Banner, CreatorCard } from '../components';
 
 import images from '../assets';
+import { makeId } from '../utils/makeId';
 
 const Home = () => {
   const parentRef = useRef(null);
@@ -24,7 +25,14 @@ const Home = () => {
         <div className="relative flex-1 max-w-full mt-3" ref={parentRef}>
           <div className="flex flex-row w-max overflow-x-scroll no-scrollbar select-none" ref={scrollRef}>
             {[6, 7, 8, 9, 10].map((i) => (
-              <CreatorCard />
+              <CreatorCard
+                key={`creator-${i}`}
+                rank={i}
+                creatorImage={images[`creator${i}`]}
+                creatorName={`0x${makeId(3)}...${makeId(4)}`}
+                creatorEths={10 - i * 0.5}
+
+              />
             ))}
           </div>
 
