@@ -38,34 +38,6 @@ const Home = () => {
 
         </div>
       </div>
-
-      <div className="minmd:4/5 flex ml-20 p-1 justify-evenly bg-nft-red-violet ">
-        <Image
-          src={images.snailMan}
-          obejectfit="contain"
-          width={500}
-          height={300}
-          alt="Snail Man"
-        />
-      </div>
-      <div className="minmd:4/5 flex ml-20 p-1 justify-evenly bg-nft-red-violet">
-        <Image
-          src={images.snailMan}
-          obejectfit="contain"
-          width={500}
-          height={300}
-          alt="Snail Man"
-        />
-      </div>
-      <div className="minmd:4/5 flex ml-20 p-1 justify-evenly bg-nft-red-violet ">
-        <Image
-          src={images.snailMan}
-          obejectfit="contain"
-          width={500}
-          height={300}
-          alt="Snail Man"
-        />
-      </div>
     </div>
   );
 };
